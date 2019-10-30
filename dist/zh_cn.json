@@ -1,0 +1,115 @@
+{
+  "basicInfo": {
+    "name": "韩磊♂男",
+    "title": "☆前端开发☆️Vue技术栈",
+    "email":"✉️2529670555@qq.com",
+    "sendEmail": "mailto:2529670555@qq.com",
+    "mobile":"📱15000039331",
+    "authorValue":"🌎Casper Han",
+    "headImage": "headImage.png",
+    "profile": "本人2015年毕业自上海应用技术大学电气工程及其自动化系，毕业后就职于必维国际检测认证公司担任测试工程师一职，期间自学web前端知识，学习了HTML5，CSS3，JavaScript,ES6,ajax,Vue全家桶，axios，jQuery等，并用Vue全家桶根据需求开发公司OA系统前端页面,用axios和后端进行交互，对前端技术兴趣浓厚，具备细心和耐心，善于思考，学习和理解能力强，工作富有责任心。始终坚信唯有付出，方有收获，天道酬勤，喜欢脚踏实地，努力学习，拓展自己的技术视野",
+    "contactMsg": [
+      {"iconName": "icon-qq","website": "#"},
+      {"iconName": "icon-ic_WeChat","website": "#"},
+      {"iconName": "icon-socialgithuboutline","website": "https://github.com/badManPro"},
+      {"iconName": "icon-weibiaoti-","website": "https://www.jianshu.com/u/66114e41b75c"}
+    ]
+  },
+  "navBar": {
+    "navBarBtn": [
+      {"id": "skill-section", "name": "专业技能"},
+      {"id": "experience-section", "name": "工作经验"},
+      {"id": "projects-section", "name": "项目经验"},
+      {"id": "portfolio-section", "name": "作品展示"},
+      {"id": "education-section", "name": "教育经历"},
+      {"id": "contact-section", "name": "联系方式"}
+    ]
+  },
+  "skills": {
+    "sectionTitle": "专业技能",
+    "topSkills": [
+      {"name": "HTML5", "percent": "95", "id": "1"},
+      {"name": "CSS3", "percent": "90", "id": "2"},
+      {"name": "jQuery", "percent": "80", "id": "3"},
+      {"name": "Vue", "percent": "80", "id": "4"},
+      {"name": "ES6", "percent": "90", "id": "5"},
+      {"name": "Element-UI", "percent": "75", "id": "6"}
+    ]
+  },
+  "jobs": {
+    "sectionTitle": "工作经验",
+    "workExperiences": [{
+      "place": "华通自动化有限公司",
+      "location": "上海",
+      "title": "测试工程师",
+      "time": "2014.11——2015.4",
+      "jobDesc": "作为测试工程师，测试公司电气产品和设备的可靠性，按照规范进行改进和调整，严格把控产品的质量与安全"
+    },{
+      "place": "上海必维欧亚国际质量服务有限公司",
+      "location": "上海",
+      "title": "测试工程师",
+      "time": "2015.7——2017.10",
+      "jobDesc": "根据各个国家和国际的标准，来审定电气产品的安全性可靠性，确保产品研发过程中对产品安全进行改进，保证上线产品的质量"
+      }, {
+      "place": "上海必维欧亚国际质量服务有限公司",
+      "location": "上海",
+      "title": "前端工程师",
+      "time": "2017.10——至今",
+      "jobDesc": "根据公司需求，对公司的OA系统进行维护和增加新的功能，使用Vue全家桶，axios和后端进行对接，进行数据的展示等"
+    }]
+  },
+  "projects": {
+    "sectionTitle": "项目经验",
+    "sectionTitle1": "项目展示",
+    "projectList": [{
+      "name": "Vue音乐播放器",
+      "frame": "Vue-Vuex-axios",
+      "time": "2019.01",
+      "desc": "用vue框架实现，用ajax, jsonp, 请求数据，axios做跨域请求QQ音乐的接口，并将数据渲染呈现为手机音乐app的效果",
+      "link": "https://github.com/badManPro/vue-musicdemo",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFpWR.jpg",
+      "id": "1"
+    },{
+      "name": "用代码画一个动漫形象",
+      "frame": "JavaScript",
+      "time": "2019.01",
+      "desc": "使用js，css，来实现一些好玩的效果，动态绘画一个卡通形象,随着代码展示，屏幕上会一步步的画出卡通形象",
+      "link": "https://github.com/badManPro/animation-demo/index.html",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFAeO.jpg",
+      "id": "2"
+    },{
+      "name": "键盘式布局导航",
+      "frame": "JQuery",
+      "time": "2019.01",
+      "desc": "使用js，jQuery等来实现一个键盘式导航页，每按一个键位都是一个网站，键位绑定网站可按需更改保存",
+      "link": "https://badmanpro.github.io/keyboard-nav/index.html",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFSY9.jpg",
+      "id": "3"
+    },{
+      "name": "canvas画板",
+      "frame": "canvas-JavaScript",
+      "time": "2019.01",
+      "desc": "用原生js，canvas来写一个简易的画板，实现简单的画画，换色，擦除，保存等功能",
+      "link": "https://badmanpro.github.io/canvas-demo/index.html",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFCS1.jpg",
+      "id": "4"
+    },{
+      "name": "员工OA系统",
+      "frame": "Vue-Element-UI",
+      "time": "2017.10——至今",
+      "desc": "根据需求用vue搭建员工oa系统，用axios跟后端进行交互，并不断迭代增添新的功能",
+      "link": "",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFFOK.jpg",
+      "id": "5"
+    },{
+      "name": "网页简历",
+      "frame": "Vue",
+      "time": "2019.01",
+      "desc": "用原生js，html5，css3，实现网页版前端简历，简历里提供了pdf下载，以及作品的展示",
+      "link": "https://badmanpro.github.io/webCV/index.html",
+      "picUrl": "https://s2.ax1x.com/2019/06/20/VxFPQx.jpg",
+      "id": "6"
+    }]
+
+  }
+}
